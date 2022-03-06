@@ -29,8 +29,8 @@ command = "pnpm install && pnpm build"
 ```json
 {
 	"name": "cloudflare-worker-template",
-  "version": "1.0.0",
-  "description": "A template for creating a Cloudflare Worker with Typescript and a simple Routing class",
+	"version": "1.0.0",
+	"description": "A template for creating a Cloudflare Worker with Typescript and a simple Routing class",
 	"author": "HaxSam",
 }
 ```
