@@ -1,0 +1,12 @@
+name = "cloudflare-worker-template"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2022-03-05"
+
+[build]
+command = "pnpm install && pnpm build"
+[build.upload]
+format = "service-worker"
