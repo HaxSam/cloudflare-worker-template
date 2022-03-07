@@ -40,3 +40,13 @@ command = "pnpm install && pnpm build"
 	"author": "HaxSam",
 }
 ```
+
+## **License**
+
+### <a target="_blank" href="https://choosealicense.com/licenses/mit/">MIT</a>
+
+Copyright for portions of project [cloudflare-worker-template](https://github.com/HaxSam/cloudflare-worker-template/) are held by [Github Account [HaxSam](https://github.com/HaxSam) Owner, 2022] as part of project [worker-typescript-template](https://github.com/cloudflare/worker-typescript-template)
+
+All other copyright for project [cloudflare-worker-template](https://github.com/HaxSam/cloudflare-worker-template/) are held by [Github Account [HaxSam](https://github.com/HaxSam) Owner, 2022].
+
+Check the [LICENSE](LICENSE) for more details.
