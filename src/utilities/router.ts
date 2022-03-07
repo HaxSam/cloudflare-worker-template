@@ -91,9 +91,7 @@ export default class Router {
 		const middlewareFunc = this.getMiddlewareFunc(pathname);
 
 		const middlewareFuncResult = middlewareFunc ? middlewareFunc(request) : undefined;
-		if (middlewareFuncResult != undefined)
-			return middlewareFuncResult();
 
-		return this.response[method].get(pathname)?.(request) || wildcard?.(request) || middleware?.handleRequest(request, pre) || notfound;
+		return middlewareFuncResult?.() || this.response[method].get(pathname)?.(request) || wildcard?.(request) || middleware?.handleRequest(request, pre) || notfound;
 	}
 }

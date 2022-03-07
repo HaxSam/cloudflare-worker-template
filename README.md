@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center" style="font-weight: bold">
-    A Template for Cloudflare Worker written in Typescript
+    A template for Cloudflare Worker written in Typescript
 </h3>
 
 ---
@@ -12,7 +12,13 @@
 
 I use pnpm for the install when you use npm or yarn you have to change it.
 
-For more depth how to use Cloudfalre Worker in Typescript go to the following repo [worker-typescript-template](https://github.com/cloudflare/worker-typescript-template)
+For more depth how to use Cloudflare Worker in Typescript go to the following repo [worker-typescript-template](https://github.com/cloudflare/worker-typescript-template)
+
+## **Examples**
+
+Here some repos where this template is used
+
+[kv-store-api](https://github.com/HaxSam/kv-storage-api)
 
 ## **Usage**
 
