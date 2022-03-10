@@ -22,6 +22,12 @@ Here some repos where this template is used
 
 ## **Usage**
 
+Use the command
+
+```
+wrangler generate my-ts-project https://github.com/HaxSam/cloudflare-worker-template/
+```
+
 Change the following files with your information
 
 - wrangler.toml
